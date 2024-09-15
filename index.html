@@ -1,7 +1,23 @@
 <!doctype html>
 <html>
-  <head><title>UW Scavenger</title></head>
-  <body>
-    <iframe src="https://uwscavenger.pythonanywhere.com" width="100%" height="100vh">
-  </body>
+<head>
+  <title>UW Scavenger</title>
+  <style>
+    /* Ensure that the body and html elements take up the full height */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    /* Make the iframe fill the entire page and remove the border */
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100vh; /* Full viewport height */
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://uwscavenger.pythonanywhere.com"></iframe>
+</body>
 </html>
